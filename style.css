@@ -6,9 +6,9 @@ body{
 
 .container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
 }
 
 .grid{
@@ -24,4 +24,14 @@ body{
 .column{
     height: 35px;
     width: 35px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+    margin-bottom: 10px;
 }
